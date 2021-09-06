@@ -1,7 +1,7 @@
 # Federated Gradient Boosting Machines for NILM Applications
 This code implements  a collaborative NILM framework, Fed-GBM (Federated Gradient Boosting Machines).  Fed-GBM integrates horizontal federated learning and Gradient Boosting Decision Tree (GBDT) training.
 
-<img src="image/fedgbm.PNG" alt="alt text" width="300" height="300">
+<img src="image/fedgbm.PNG" alt="alt text" width="700" height="300">
 
 
 **Requirements**
@@ -9,7 +9,7 @@ This code implements  a collaborative NILM framework, Fed-GBM (Federated Gradien
 0. Implementing distributed Dask on Fargate using AWS CloudFormation
     * Follow official instruction on https://aws.amazon.com/blogs/machine-learning/machine-learning-on-distributed-dask-using-amazon-sagemaker-and-aws-fargate/
     * Container Defination for the workers in distributed Dask cluster is configured as:
-	<img src="image/container.PNG" alt="alt text" width="300" height="300">
+<img src="image/container.PNG" alt="alt text" width="300" height="300">
 	* Each workers is equipped with 4 vCPU and 4GB RAM
 2. Launch a EC2 instance (72 vCPU, 144GB RAM, 2 x 900 NVMe SSD, and 25Gbps network bandwidth)
     * Install Dask.Distributed by official instruction on https://distributed.dask.org/en/latest/install.html
