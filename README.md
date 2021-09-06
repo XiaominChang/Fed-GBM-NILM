@@ -1,7 +1,7 @@
 # Federated Gradient Boosting Machines for NILM Applications
 This code implements  a collaborative NILM framework, Fed-GBM (Federated Gradient Boosting Machines).  Fed-GBM integrates horizontal federated learning and Gradient Boosting Decision Tree (GBDT) training.
 
-![](image/fedgbm.png)
+![Alt text](image/fedgbm.PNG)
 
 **Requirements**
 
