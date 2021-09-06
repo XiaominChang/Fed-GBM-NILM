@@ -28,7 +28,7 @@ Directory tree:
 │   ├── redd_process.py
 │   ├── refit_process.py
 │   ├── ukdale_process.py
-├──fedgbm
+├── booster_train
 │   ├── FedBooster.py
 │   ├── TrainBooster_redd.py
 │   └── TrainBooster_refit.py
