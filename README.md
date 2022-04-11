@@ -35,6 +35,12 @@ Directory tree:
 │   ├── SingleBooster.py
 │   ├── evaluate_nilm.py
 │   └── data_process.py
+├──compare
+│   ├── CNNtrain.py
+│   ├── GAN-ukdale.ipynb
+│   ├── CNN_S2P_models
+│   ├── GAN_models
+│   └── GBDT_models
 ├──config
 │   ├── dask-fargate-main.template
 │   ├── dask-clustere.template
